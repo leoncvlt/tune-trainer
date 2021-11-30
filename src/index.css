@@ -1,0 +1,45 @@
+#app {
+    text-align: center;
+}
+
+input[type=file] {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+audio {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+table {
+    margin-top: 2rem;
+    table-layout: auto;
+}
+
+td { 
+    vertical-align: middle;
+}
+
+td button {
+    margin: 0;
+}
+
+.part[data-active] {
+    outline: 1px solid var(--code);
+}
+
+.track .rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.track .rate input {
+    margin: 0 1rem;
+}
+
+.track .rate button {
+    margin-bottom: 0;
+}
